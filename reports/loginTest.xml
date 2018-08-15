@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="loginTest"
+    errors="1" failures="0" hostname="" id="" package="loginTest" skipped="0"
+    tests="1" time="0.004000" timestamp="Tue, 14 Aug 2018 11:29:03 GMT">
+  
+    <testcase name="Check login form exists" classname="loginTest" time="0.004000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Login Test / Check login form exists]:
+
+  TypeError: browser.url(...).waitForElementVisible(...).setValue(...).setValue(...).click(...).click(...).click(...).click(...).pause(...).verify.visible(...).click(...).click(...).clear is not a function
+    at Object.Check login form exists (/Users/danielasofrone/Documents/nightwatch_tests/tests/loginTest.js:36:59)
+    at Module.call (/Users/danielasofrone/Documents/nightwatch_tests/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/danielasofrone/Documents/nightwatch_tests/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/danielasofrone/Documents/nightwatch_tests/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/danielasofrone/Documents/nightwatch_tests/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/danielasofrone/Documents/nightwatch_tests/node_modules/q/q.js:796:13)
+    at /Users/danielasofrone/Documents/nightwatch_tests/node_modules/q/q.js:556:49
+    at runSingle (/Users/danielasofrone/Documents/nightwatch_tests/node_modules/q/q.js:137:13)
+    at flush (/Users/danielasofrone/Documents/nightwatch_tests/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

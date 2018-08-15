@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="1">
+
+  <testsuite name="loginTest"
+    errors="1" failures="1" hostname="" id="" package="loginTest" skipped="0"
+    tests="1" time="20.96" timestamp="Tue, 14 Aug 2018 11:36:45 GMT">
+  
+    <testcase name="Check login form exists" classname="loginTest" time="20.96" assertions="3">
+
+    
+
+      <failure message="Testing if element &lt;[role=&#34;alert&#34;]&gt; is visible. Element could not be located.">    at Object.Check login form exists (/Users/danielasofrone/Documents/nightwatch_tests/tests/loginTest.js:38:21)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &#34;[role=&#34;alert&#34;]&#34; using: css selector
+    at F.command (/Users/danielasofrone/Documents/nightwatch_tests/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/danielasofrone/Documents/nightwatch_tests/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._executeCommand (/Users/danielasofrone/Documents/nightwatch_tests/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/danielasofrone/Documents/nightwatch_tests/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/danielasofrone/Documents/nightwatch_tests/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/danielasofrone/Documents/nightwatch_tests/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/danielasofrone/Documents/nightwatch_tests/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/danielasofrone/Documents/nightwatch_tests/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/danielasofrone/Documents/nightwatch_tests/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/danielasofrone/Documents/nightwatch_tests/node_modules/nightwatch/lib/core/queue.js:73:8)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
